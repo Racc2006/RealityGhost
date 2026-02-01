@@ -1,12 +1,12 @@
-# RealityGhost v3.6.1
+# RealityGhost 
 ### Dual-Mode Xray Reality (XHTTP / TCP) with Stealth HTTPS Subscription
-
+### Based on PostQuantom TLS Encryption
 ❌❌❌ توجه فرمایید کد در حالت تست است و تا دو روز آینده رفع اشکال میشود❌❌❌
 
 برای نصب RealityGhost، کافیست دستور زیر را اجرا کنید:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/ghostmcf/RealityGhost/main/RealityGhost.sh) install
+sudo bash -c 'curl -sL https://raw.githubusercontent.com/ghostmcf/RealityGhost/main/RealityGhost.sh -o /usr/local/bin/realityghost && chmod +x /usr/local/bin/realityghost && /usr/local/bin/realityghost install'
 ```
 
 RealityGhost یک اسکریپت **production‑grade، ایمن و stealth‑محور** برای راه‌اندازی و مدیریت Xray Reality (VLESS) است که بر اساس **مشاهدات میدانی، لاگ‌های عملیاتی و گزارش‌های واقعی از نحوه فیلترینگ در ایران** طراحی شده است.
