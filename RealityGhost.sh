@@ -984,8 +984,8 @@ install(){
 
   echo "UUID=$UUID"
 
-  # apt-get update -y
-  # apt-get install -y curl unzip jq openssl ufw qrencode vnstat uuid-runtime nginx libnginx-mod-stream certbot xxd python3
+  apt-get update -y
+  apt-get install -y curl unzip jq openssl ufw qrencode vnstat uuid-runtime nginx libnginx-mod-stream certbot xxd python3
 
   mkdir -p "$SCRIPT_DIR" "$SUB_DIR"
   echo "$UUID" > "$UUID_FILE"
