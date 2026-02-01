@@ -956,22 +956,20 @@ install(){
   show_banner
   echo
   log "=== RealityGhost v3.7.0 Install (Dual-Mode) ==="
-  # while true; do
-  #     domain=$(ask "Subscription Domain: ")
-  #     [[ -n "$domain" ]] && break
-  #     echo "⚠ Domain cannot be empty. Please enter a valid domain."
-  # done
+  while true; do
+      domain=$(ask "Subscription Domain: ")
+      [[ -n "$domain" ]] && break
+      echo "⚠ Domain cannot be empty. Please enter a valid domain."
+  done
 
-  # # Email
-  # while true; do
-  #     help_email=$(ask "Email for Let's Encrypt: ")
-  #     [[ -n "$help_email" ]] && break
-  #     echo "⚠ Email cannot be empty. Please enter a valid email."
-  # done
-  domain="api4.mindescape.co"
-  help_email="help@mindescape.co"
+  # Email
+  while true; do
+      help_email=$(ask "Email for Let's Encrypt: ")
+      [[ -n "$help_email" ]] && break
+      echo "⚠ Email cannot be empty. Please enter a valid email."
+  done
   echo "$domain" > "$GHOST_CONF"
-  echo "$domain"
+  
 
   local t
   set_transport "$DEFAULT_TRANSPORT"
